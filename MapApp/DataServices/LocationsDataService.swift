@@ -1,8 +1,8 @@
 //
-//  ContentView.swift
-//  MapApp
+//  LocationsDataService.swift
+//  MapTest
 //
-//  Created by dsm 5e on 19.05.2023.
+//  Created by Nick Sarno on 11/26/21.
 //
 
 import Foundation
@@ -12,10 +12,10 @@ class LocationsDataService {
     
     static let locations: [Location] = [
         Location(
-            name: "Colosseum",
-            cityName: "Rome",
+            name: "Коллизей",
+            cityName: "Рим",
             coordinates: CLLocationCoordinate2D(latitude: 41.8902, longitude: 12.4922),
-            description: "The Colosseum is an oval amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum. It is the largest ancient amphitheatre ever built, and is still the largest standing amphitheatre in the world today, despite its age.",
+            description: "Колизей - это овальный амфитеатр в центре города Рим, Италия, недалеко от Римского форума. Это самый большой древний амфитеатр, когда-либо построенный, и по сей день является самым большим стоящим амфитеатром в мире, несмотря на свой возраст..",
             imageNames: [
                 "rome-colosseum-1",
                 "rome-colosseum-2",
@@ -23,10 +23,10 @@ class LocationsDataService {
             ],
             link: "https://en.wikipedia.org/wiki/Colosseum"),
         Location(
-            name: "Pantheon",
-            cityName: "Rome",
+            name: "Пантеон",
+            cityName: "Рим",
             coordinates: CLLocationCoordinate2D(latitude: 41.8986, longitude: 12.4769),
-            description: "The Pantheon is a former Roman temple and since the year 609 a Catholic church, in Rome, Italy, on the site of an earlier temple commissioned by Marcus Agrippa during the reign of Augustus.",
+            description: "Пантеон - это бывший римский храм, а с 609 года и католическая церковь в Риме, Италия, на месте ранее возведенного храма, заказанного Марком Агриппой во время правления Августа.",
             imageNames: [
                 "rome-pantheon-1",
                 "rome-pantheon-2",
@@ -34,10 +34,10 @@ class LocationsDataService {
             ],
             link: "https://en.wikipedia.org/wiki/Pantheon,_Rome"),
         Location(
-            name: "Trevi Fountain",
-            cityName: "Rome",
+            name: "Фонтан Треви",
+            cityName: "Рим",
             coordinates: CLLocationCoordinate2D(latitude: 41.9009, longitude: 12.4833),
-            description: "The Trevi Fountain is a fountain in the Trevi district in Rome, Italy, designed by Italian architect Nicola Salvi and completed by Giuseppe Pannini and several others. Standing 26.3 metres high and 49.15 metres wide, it is the largest Baroque fountain in the city and one of the most famous fountains in the world.",
+            description: "Фонтан Треви - это фонтан в квартале Треви в Риме, Италия, проектируемый итальянским архитектором Николо Сальви и завершенный Джузеппе Паннини. Высотой в 26,3 метра и шириной 49,15 метров, это самый большой барокко фонтан в городе и один из самых известных фонтанов в мире.",
             imageNames: [
                 "rome-trevifountain-1",
                 "rome-trevifountain-2",
@@ -45,26 +45,37 @@ class LocationsDataService {
             ],
             link: "https://en.wikipedia.org/wiki/Trevi_Fountain"),
         Location(
-            name: "Eiffel Tower",
-            cityName: "Paris",
+            name: "Эйфелева башня",
+            cityName: "Париж",
             coordinates: CLLocationCoordinate2D(latitude: 48.8584, longitude: 2.2945),
-            description: "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France. It is named after the engineer Gustave Eiffel, whose company designed and built the tower. Locally nicknamed 'La dame de fer', it was constructed from 1887 to 1889 as the centerpiece of the 1889 World's Fair and was initially criticized by some of France's leading artists and intellectuals for its design, but it has become a global cultural icon of France and one of the most recognizable structures in the world.",
+            description: "Эйфелева башня - это каменно-железная решетчатая башня на площади Марса в Париже, Франция. Она названа в честь инженера Густава Эйфеля, чья компания проектировала и строила башню. Местно ее называют 'Ла дам де фер', она была построена с 1887 по 1889 годы в качестве центральной достопримечательности фестиваля 1889 года и первоначально была критикована некоторыми из ведущих французских художников и интеллектуалов за ее дизайн, но стала глобальным культурным иконой Франции и одним из самых узнаваемых зданий в мире.",
             imageNames: [
                 "paris-eiffeltower-1",
                 "paris-eiffeltower-2",
             ],
             link: "https://en.wikipedia.org/wiki/Eiffel_Tower"),
         Location(
-            name: "Louvre Museum",
-            cityName: "Paris",
+            name: "Лувр",
+            cityName: "Париж",
             coordinates: CLLocationCoordinate2D(latitude: 48.8606, longitude: 2.3376),
-            description: "The Louvre, or the Louvre Museum, is the world's most-visited museum and a historic monument in Paris, France. It is the home of some of the best-known works of art, including the Mona Lisa and the Venus de Milo. A central landmark of the city, it is located on the Right Bank of the Seine in the city's 1st arrondissement.",
+            description: "Лувр или Луврский музей является самым посещаемым музеем в мире, расположенным по адресу Ривьер-де-Шамбор в Париже, Франция. Он был открыт публике в 1793 году и был домом для потрясающей коллекции произведений искусства и археологии из всего мира. Сегодня Лувр принадлежит трем государствам - Франции, Италии и Бельгии - и содержит более 380 000 произведений искусства и археологических артефактов.",
             imageNames: [
                 "paris-louvre-1",
                 "paris-louvre-2",
                 "paris-louvre-3",
             ],
             link: "https://en.wikipedia.org/wiki/Louvre"),
+        Location(
+            name: "Кремль",
+            cityName: "Москва",
+            coordinates: CLLocationCoordinate2D(latitude: 55.7539, longitude: 37.6209),
+            description: "Кремль - главный дворец в Москве, Россия, расположенный в Старом городе Москвы. Он является крупнейшим и самым значимым памятником архитектуры в Москве и одним из главных достопримечательностей России. Здесь находится кремлевская палата, Большой Красный Дворец и Алмазная Палата, а также большое количество других памятников истории и искусства.",
+            imageNames: [
+                "moscow-kremlin-1",
+            "moscow-kremlin-2",
+            "moscow-kremlin-3",
+            ],
+            link: "https://en.wikipedia.org/wiki/KremlinofMoscow"),
     ]
     
 }

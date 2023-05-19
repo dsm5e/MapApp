@@ -79,7 +79,7 @@ extension LocationsPreviewView {
         Button {
             vm.sheetLocation = location
         } label: {
-            Text("Learn more")
+            Text("Подробнее")
                 .font(.headline)
                 .frame(width: 125, height: 35)
         }
@@ -90,7 +90,7 @@ extension LocationsPreviewView {
         Button {
             vm.nextButtonPressed()
         } label: {
-            Text("Next")
+            Text("Дальше")
                 .font(.headline)
                 .frame(width: 125, height: 35)
         }

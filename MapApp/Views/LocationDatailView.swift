@@ -78,7 +78,7 @@ extension LocationDatailView {
             
             
             if let url = URL(string: location.link) {
-                Link("Read more on Wikipedia", destination: url)
+                Link("Подробнее на Wikipedia", destination: url)
                     .font(.headline)
                     .tint(.blue)
             }
