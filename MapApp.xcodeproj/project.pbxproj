@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C83FAD72A18DEA200EB4709 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C83FAD62A18DEA200EB4709 /* Assets.xcassets */; };
 		3CA82D3B2A17E34F00C40B65 /* MapAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA82D3A2A17E34F00C40B65 /* MapAppApp.swift */; };
 		3CA82D422A17E34F00C40B65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CA82D412A17E34F00C40B65 /* Preview Assets.xcassets */; };
-		3CA82D492A17E39900C40B65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CA82D482A17E39900C40B65 /* Assets.xcassets */; };
 		3CA82D4E2A17E47800C40B65 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA82D4D2A17E47800C40B65 /* Location.swift */; };
 		3CA82D522A17E96F00C40B65 /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA82D512A17E96F00C40B65 /* LocationsDataService.swift */; };
 		3CA82D542A17EA7C00C40B65 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA82D532A17EA7C00C40B65 /* LocationView.swift */; };
@@ -21,10 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C83FAD62A18DEA200EB4709 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = MapApp/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		3CA82D372A17E34F00C40B65 /* MapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CA82D3A2A17E34F00C40B65 /* MapAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAppApp.swift; sourceTree = "<group>"; };
 		3CA82D412A17E34F00C40B65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3CA82D482A17E39900C40B65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../SwiftfulMapApp-Downloads/Assets.xcassets"; sourceTree = "<group>"; };
 		3CA82D4D2A17E47800C40B65 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		3CA82D512A17E96F00C40B65 /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
 		3CA82D532A17EA7C00C40B65 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 				3CA82D4B2A17E44700C40B65 /* Views */,
 				3CA82D4C2A17E44D00C40B65 /* ViewModels */,
 				3CA82D4A2A17E44000C40B65 /* Models */,
-				3CA82D482A17E39900C40B65 /* Assets.xcassets */,
+				3C83FAD62A18DEA200EB4709 /* Assets.xcassets */,
 				3CA82D402A17E34F00C40B65 /* Preview Content */,
 			);
 			path = MapApp;
@@ -180,8 +180,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C83FAD72A18DEA200EB4709 /* Assets.xcassets in Resources */,
 				3CA82D422A17E34F00C40B65 /* Preview Assets.xcassets in Resources */,
-				3CA82D492A17E39900C40B65 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
